@@ -1,9 +1,6 @@
 server:
   port: 8081
-
 mensaje: "UserService Micro"
-
-mensaje: "InventarioService Micro"
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
