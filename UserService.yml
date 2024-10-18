@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: micro-usuario
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/securitydb?useSSL=false&serverTimezone=UTC
+    username: root
+    password: mc190319
