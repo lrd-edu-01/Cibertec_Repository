@@ -5,9 +5,9 @@ mensaje: "InventarioService Micro"
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dbcibertec
-    username: cibertec
-    password: 70371569_Edu
+    url: jdbc:mysql://localhost:3306/dbinventario
+    username: root
+    password: mysql
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
@@ -16,4 +16,4 @@ spring:
       show-sql: true
       properties:
         hibernate:
-          format_sql: true #
+          format_sql: true

@@ -1,0 +1,19 @@
+server:
+  port: 8083
+
+mensaje: "InventarioService Micro"
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbnotificacion
+    username: root
+    password: mysql
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
