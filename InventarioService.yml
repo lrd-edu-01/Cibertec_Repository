@@ -1,19 +1,16 @@
 server:
-  port: 8082
+  port: 8081
 
 mensaje: "InventarioService Micro"
+
 spring:
+  application:
+    name: micro-usuario
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dbinventario
+    url: jdbc:mysql://localhost:3306/dbinventario?useSSL=false&serverTimezone=UTC
     username: root
     password: mysql
-
-  jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
-    hibernate:
-      ddl-auto: create-drop
-      show-sql: true
-      properties:
-        hibernate:
-          format_sql: true
