@@ -8,9 +8,9 @@ spring:
     name: micro-usuario
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     database-platform: org.hibernate.dialect.MySQL8Dialect
   datasource:
     url: jdbc:mysql://localhost:3306/dbinventario?useSSL=false&serverTimezone=UTC
-    username: root
+    username: cibertec
     password: mysql
