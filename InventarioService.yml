@@ -12,5 +12,5 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
   datasource:
     url: jdbc:mysql://localhost:3306/dbinventario?useSSL=false&serverTimezone=UTC
-    username: cibertec
+    username: root
     password: mysql
