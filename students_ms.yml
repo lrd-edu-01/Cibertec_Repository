@@ -1,0 +1,18 @@
+server:
+  port: 8082
+mensaje: "Micro service students"
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbcibertec
+    username: cibertec
+    password: 70371569_Edu
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
