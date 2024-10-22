@@ -5,7 +5,7 @@ mensaje: "InventarioService Micro"
 
 spring:
   application:
-    name: micro-usuario
+    name: InventarioService
   jpa:
     hibernate:
       ddl-auto: create-drop
